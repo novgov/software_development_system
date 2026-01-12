@@ -1,5 +1,5 @@
-from model.base_model import Model
-from view.base_view import View
+from quest_2.model.base_model import Model
+from quest_2.view.base_view import View
 
 
 class Controller(object):

@@ -4,9 +4,9 @@ from __future__ import annotations
 import math
 from typing import Iterable
 
-from variant_6.calculator import Calculator
-from variant_6.commands import UnaryFunctionCommand
-from variant_6.keyboard import Keyboard
+from quest_2.variant_6.calculator import Calculator
+from quest_2.variant_6.commands import UnaryFunctionCommand
+from quest_2.variant_6.keyboard import Keyboard
 
 
 def _print_sequence(title: str, keyboard: Keyboard, sequence: Iterable[str]):

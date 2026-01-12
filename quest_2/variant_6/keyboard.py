@@ -3,14 +3,14 @@ from __future__ import annotations
 
 from typing import Dict
 
-from variant_6.commands import (
+from quest_2.variant_6.commands import (
     ClearCommand,
     Command,
     DigitCommand,
     EqualCommand,
     OperatorCommand,
 )
-from .calculator import Calculator
+from quest_2.variant_6.calculator import Calculator
 
 
 class Keyboard:

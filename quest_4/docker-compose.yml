@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    build: .
+    container_name: jupyter_notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/notebook
+      - /Users/vladsidorenko/Downloads/data:/home/jovyan/data  # Монтируем локальную папку
+      - /Users/vladsidorenko/Desktop/Учеба по ИИ/Январь 2026/software_development_system/quest_3:/home/jovyan/quest_3
+    environment:
+      - JUPYTER_TOKEN=mysecrettoken
+    restart: unless-stopped
+
+volumes:
+  notebook:

@@ -1,5 +1,5 @@
-from view.base_view import View
-from model.base_model import ItemType
+from quest_2.view.base_view import View
+from quest_2.model.base_model import ItemType
 
 
 class FileView(View):

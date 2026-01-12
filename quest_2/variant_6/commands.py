@@ -6,7 +6,7 @@
 from abc import ABC, abstractmethod
 from typing import Callable, Optional
 
-from variant_6.calculator import Calculator
+from quest_2.variant_6.calculator import Calculator
 
 
 class Command(ABC):

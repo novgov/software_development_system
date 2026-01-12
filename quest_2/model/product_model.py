@@ -1,5 +1,5 @@
 from random import randint
-from model.base_model import Model, ItemType
+from quest_2.model.base_model import Model, ItemType
 
 
 class ProductModel(Model):
